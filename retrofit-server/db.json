@@ -1,0 +1,71 @@
+{
+  "Users": [
+    {
+      "id": 1,
+      "username": "jess",
+      "password": "ja"
+    },
+    {
+      "username": "juju",
+      "password": "ka",
+      "id": 2
+    },
+    {
+      "password": "lo",
+      "username": "teste",
+      "id": 3
+    },
+    {
+      "password": "kl",
+      "username": "teste 2",
+      "id": 4
+    }
+  ],
+  "Records": [
+    {
+      "id": 1,
+      "value": 200,
+      "person": "mom",
+      "remarks": "",
+      "receive": true,
+      "regitred_at": "02/12/2020",
+      "fk_user": 1
+    },
+    {
+      "id": 1,
+      "value": 20,
+      "person": "juju",
+      "remarks": "",
+      "receive": false,
+      "regitred_at": "02/12/2020",
+      "fk_user": 1
+    },
+    {
+      "id": 1,
+      "value": 15,
+      "person": "kika",
+      "remarks": "",
+      "receive": false,
+      "regitred_at": "02/12/2020",
+      "fk_user": 1
+    },
+    {
+      "fk_user": 1,
+      "person": "mom",
+      "receive": true,
+      "regitred_at": "06/12/2020 16:47",
+      "remarks": "",
+      "value": 200,
+      "id": 2
+    },
+    {
+      "fk_user": 1,
+      "person": "vovo",
+      "receive": false,
+      "regitred_at": "06/12/2020 16:51",
+      "remarks": "",
+      "value": 90,
+      "id": 3
+    }
+  ]
+}

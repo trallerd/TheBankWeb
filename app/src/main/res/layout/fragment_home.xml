@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".HomeFragment">
+
+    <ImageView
+        android:id="@+id/theBankHome"
+        android:layout_width="80sp"
+        android:layout_height="80sp"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:contentDescription="@string/the_bank_icon"
+        android:src="@drawable/thebank"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtBank"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginRight="5dp"
+        android:fontFamily="cursive"
+        android:gravity="center"
+        android:text="@string/the_bank"
+        android:textColor="@color/green"
+        android:textSize="36sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/theBankHome"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/welcomeText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:fontFamily="cursive"
+        android:text="@string/welcome_text"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/theBankHome" />
+
+    <ImageView
+        android:id="@+id/btnWallet"
+        android:layout_width="120sp"
+        android:layout_height="120sp"
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        android:contentDescription="@string/wallet"
+        android:src="@drawable/wallet"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/welcomeText" />
+
+    <ImageView
+        android:id="@+id/btnExtract"
+        android:layout_width="120sp"
+        android:layout_height="120sp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginRight="30dp"
+        android:contentDescription="@string/extract"
+        android:src="@drawable/list"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/btnWallet" />
+
+    <ImageView
+        android:id="@+id/btnSenMoney"
+        android:layout_width="120sp"
+        android:layout_height="120sp"
+        android:layout_marginTop="20dp"
+        android:contentDescription="@string/send_money"
+        android:src="@drawable/sendmoney"
+        app:layout_constraintStart_toStartOf="@+id/btnExtract"
+        app:layout_constraintTop_toBottomOf="@+id/btnExtract"
+        app:srcCompat="@drawable/sendmoney" />
+
+    <ImageView
+        android:id="@+id/btnReceiveMoney"
+        android:layout_width="120sp"
+        android:layout_height="120sp"
+        android:layout_marginTop="20dp"
+        android:contentDescription="@string/receive_money"
+        android:src="@drawable/receivemoney"
+        app:layout_constraintEnd_toEndOf="@+id/btnWallet"
+        app:layout_constraintTop_toBottomOf="@+id/btnWallet" />
+
+    <ImageView
+        android:id="@+id/btnLogout"
+        android:layout_width="120sp"
+        android:layout_height="120sp"
+        android:layout_marginTop="20dp"
+        android:contentDescription="@string/logout"
+        android:src="@drawable/logout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnReceiveMoney" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

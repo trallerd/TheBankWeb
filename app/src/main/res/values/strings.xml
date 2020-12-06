@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">TheBank</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="sign_in">Sign In</string>
+    <string name="the_bank_icon" translatable="false">The Bank Icon</string>
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+    <string name="the_bank" translatable="false">The Bank</string>
+    <string name="create">Create</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="cancel">Cancel</string>
+    <string name="welcome_text">Welcome to The Bank, %1$s!</string>
+    <string name="wallet">Wallet</string>
+    <string name="extract">Extract</string>
+    <string name="receive_money">Receive Money</string>
+    <string name="send_money">Send Money</string>
+    <string name="logout">Logout</string>
+    <string name="date">Date</string>
+    <string name="amount">Amount</string>
+    <string name="send_to">Send To:</string>
+    <string name="info_str" translatable="false">%1$s</string>
+    <string name="info_doub" translatable="false">%1$.2f</string>
+    <string name="home">Back to Home</string>
+    <string name="view_extract">View Extract</string>
+    <string name="total_money">Balance</string>
+    <string name="txt_income">Income</string>
+    <string name="txt_spent">Spent</string>
+    <string name="send_money_to">Who you want send money to?</string>
+    <string name="recipient">Recipient</string>
+    <string name="remarks">Remarks</string>
+    <string name="field_message">Please, complete all fields!!</string>
+    <string name="password_match">Passwords don\'t appear match!!</string>
+    <string name="user_error">User doesn\'t exist!!</string>
+    <string name="plus_btn">"Add "</string>
+    <string name="txt_balance" translatable="false">Balance</string>
+    <string name="ok_icon" translatable="false">OK</string>
+    <string name="receive_text_question">Who is sending money to you?</string>
+    <string name="receive_from">Receive from</string>
+    <string name="not_enough_money">Sorry, you don\'t have enough money!!</string>
+    <string name="search">Search</string>
+</resources>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TheBank</string>
+    <string name="username">Usuario</string>
+    <string name="password">Contraseña</string>
+    <string name="login">"Iniciar sesión "</string>
+    <string name="sign_in">Registrarse</string>
+    <string name="create">Crear</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="cancel">Cancelar</string>
+    <string name="welcome_text">Bienvenido a The Bank, %1$s!</string>
+    <string name="wallet">Billetera</string>
+    <string name="extract">Equilibrar</string>
+    <string name="receive_money">"Recibir dinero "</string>
+    <string name="send_money">"Enviar dinero "</string>
+    <string name="logout">"Cerrar sesión "</string>
+    <string name="date">Fecha</string>
+    <string name="amount">Valor</string>
+    <string name="send_to">"Enviado a: "</string>
+    <string name="home">"Vuelve "</string>
+    <string name="view_extract">"Ver saldo "</string>
+    <string name="total_money">Saldo</string>
+    <string name="txt_income">Recibido</string>
+    <string name="txt_spent">Gastado</string>
+    <string name="send_money_to">A quién quieres enviar dinero?</string>
+    <string name="recipient">"Receptor "</string>
+    <string name="remarks">Comentarios</string>
+    <string name="field_message">" Porfavor complete todos los campos !!"</string>
+    <string name="password_match">Las contraseñas no son compatibles!</string>
+    <string name="user_error">El usuario no existe!!</string>
+    <string name="plus_btn">"Añadir "</string>
+    <string name="receive_text_question">Quién te envía dinero?</string>
+    <string name="receive_from">Recibido de</string>
+    <string name="not_enough_money">Lo siento, no hay suficiente saldo !!</string>
+    <string name="search">Buscar</string>
+</resources>
